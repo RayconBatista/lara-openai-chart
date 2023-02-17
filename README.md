@@ -1,5 +1,5 @@
 # Aplicação básica com Inteligência Artificial (IA)
-O teste é um CRUD de lojas com vários produtos
+O projeto tem como objetivo gerar gráfico de dashboard usando inteligência artificial (IA) com OpenAI.
 
 <table style="width:100%">
     <thead>
@@ -61,7 +61,10 @@ O teste é um CRUD de lojas com vários produtos
 ## Application features
 * [x] frontend construct
 * [x] backend construct
-* [x] training OpenAI
+* [ ] training OpenAI
+
+Exemplo do recurso principal em funcionamento
+![Generating Chart](/storage/generating_chart.gif "Generating Chart")
 
 ## Para refinar o aprendizado da IA
 - Insira mais comando e resposta no arquivo  `olw-dataset.jsonl` no diretório storage do projeto.
@@ -80,6 +83,8 @@ O teste é um CRUD de lojas com vários produtos
 ```
     docker-compose down
 ```
+
+
 
 - Para criar OpenAi fine tuning, execute:
     ```php
